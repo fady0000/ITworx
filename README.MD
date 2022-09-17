@@ -1,17 +1,17 @@
 # IT Worx
  *** 
 ## Table Of Content 
-1. [General info](#General-Info)
+1. [General info](#General-info)
 2. [Tools and frameworks](#tools-and-frameworks)
 3. [Technologies](#technologies)
 4. [Installation](#installation)
 5- [How To Run](#How-To-Run)
 
-##General Info 
+##General info 
 ***
 Automated Scenarios For Ecommerce Website
 
-##Tools and Frameworks
+##Tools and frameworks
 ***
 this project based on build automation tool (MVN) project
 

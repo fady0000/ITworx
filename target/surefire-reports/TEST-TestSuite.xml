@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="24.946" tests="3" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="55.732" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="15.0.1+9-18"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="E:\ITworex"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\ITworx"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="E:\ITworex"/>
+    <property name="user.dir" value="E:\ITworx"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="15.0.1+9-18"/>
     <property name="os.arch" value="amd64"/>
@@ -59,11 +59,7 @@
     <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="RegisterTest" classname="tests.AuthTest" time="9.937"/>
-  <testcase name="login" classname="tests.AuthTest" time="2.331"/>
-  <testcase name="purchasingProduct" classname="tests.PurchaseItem" time="4.024">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at tests.PurchaseItem.purchasingProduct(PurchaseItem.java:9)
-</failure>
-  </testcase>
+  <testcase name="RegisterTest" classname="tests.EndToEndScenario" time="20.953"/>
+  <testcase name="login" classname="tests.EndToEndScenario" time="12.364"/>
+  <testcase name="purchasingProduct" classname="tests.EndToEndScenario" time="10.318"/>
 </testsuite>

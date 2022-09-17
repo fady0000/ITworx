@@ -37,18 +37,20 @@ public class PageBase {
         action(locator).click();
     }
 
-    public void selectFromList(By locator, int index) {
+    protected void selectFromList(By locator, int index) {
         Select select;
+        waitElement(locator);
         select = new Select(action(locator));
         select.selectByIndex(index);
     }
 
-    public void hoverAndClickOnElement(By locator, By otherLocator) {
+    protected void hoverAndClickOnElement(By locator, By otherLocator) {
         Actions actions = new Actions(driver);
+        waitElement(locator);
         actions.moveToElement(action(locator)).moveToElement(action(otherLocator)).click().perform();
     }
 
-    public String getTextContain(By locator) {
+    protected String getTextContain(By locator) {
         return action(locator).getText();
     }
 }

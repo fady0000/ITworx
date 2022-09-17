@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-All_Test_Suite" class="navigator-link">
-              <span class="suite-name border-failed">All Test Suite</span>
+              <span class="suite-name border-passed">All Test Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-All_Test_Suite" class="navigator-link ">
-                    <span>E:\ITworex\testng.xml</span>
+                    <span>E:\ITworx\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,21 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-All_Test_Suite" class="hide-methods failed suite-All_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-All_Test_Suite -->
-                      <a href="#" panel-name="suite-All_Test_Suite" class="show-methods failed suite-All_Test_Suite"> (show)</a> <!-- show-methods failed suite-All_Test_Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-All_Test_Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.PurchaseItem" class="method navigator-link" hash-for-method="purchasingProduct">purchasingProduct</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-All_Test_Suite -->
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -118,12 +104,17 @@
                     <div class="method-list-content passed suite-All_Test_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.AuthTest" class="method navigator-link" hash-for-method="RegisterTest">RegisterTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.EndToEndScenario" class="method navigator-link" hash-for-method="RegisterTest">RegisterTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.AuthTest" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.EndToEndScenario" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.EndToEndScenario" class="method navigator-link" hash-for-method="purchasingProduct">purchasingProduct</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-All_Test_Suite -->
@@ -138,64 +129,10 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-All_Test_Suite" class="panel All_Test_Suite">
-          <div class="suite-All_Test_Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">tests.PurchaseItem</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="purchasingProduct">
-                  </a> <!-- purchasingProduct -->
-                  <span class="method-name">purchasingProduct</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at java.base/java.util.Objects.requireNonNull(Objects.java:208)
-	at org.openqa.selenium.interactions.Actions.&lt;init&gt;(Actions.java:65)
-	at Pages.PageBase.hoverAndClickOnElement(PageBase.java:47)
-	at Pages.HomePage.openWomenList(HomePage.java:31)
-	at tests.PurchaseItem.purchasingProduct(PurchaseItem.java:9)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-All_Test_Suite-class-failed -->
           <div class="suite-All_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">tests.AuthTest</span>
+              <span class="class-name">tests.EndToEndScenario</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -212,12 +149,19 @@
                   <span class="method-name">login</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="purchasingProduct">
+                  </a> <!-- purchasingProduct -->
+                  <span class="method-name">purchasingProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-All_Test_Suite-class-passed -->
         </div> <!-- panel All_Test_Suite -->
         <div panel-name="test-xml-All_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">E:\ITworex\testng.xml</span>
+            <span class="header-content">E:\ITworx\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -226,17 +170,13 @@
 &lt;suite name=&quot;All Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;E:/ITworx/src/test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;tests.AuthTest&quot;&gt;
+      &lt;class name=&quot;tests.EndToEndScenario&quot;&gt;
         &lt;methods&gt;
           &lt;include name=&quot;RegisterTest&quot;/&gt;
           &lt;include name=&quot;login&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- tests.AuthTest --&gt;
-      &lt;class name=&quot;tests.PurchaseItem&quot;&gt;
-        &lt;methods&gt;
           &lt;include name=&quot;purchasingProduct&quot;/&gt;
         &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- tests.PurchaseItem --&gt;
+      &lt;/class&gt; &lt;!-- tests.EndToEndScenario --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- E:/ITworx/src/test --&gt;
 &lt;/suite&gt; &lt;!-- All Test Suite --&gt;
@@ -250,7 +190,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">E:/ITworx/src/test (2 classes)</span>
+                <span class="test-name">E:/ITworx/src/test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -279,21 +219,21 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'RegisterTest')
-data.setCell(0, 2, 'tests.AuthTest')
-data.setCell(0, 3, 9972);
+data.setCell(0, 2, 'tests.EndToEndScenario')
+data.setCell(0, 3, 21004);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'purchasingProduct')
-data.setCell(1, 2, 'tests.PurchaseItem')
-data.setCell(1, 3, 4011);
+data.setCell(1, 1, 'login')
+data.setCell(1, 2, 'tests.EndToEndScenario')
+data.setCell(1, 3, 12360);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'login')
-data.setCell(2, 2, 'tests.AuthTest')
-data.setCell(2, 3, 2331);
+data.setCell(2, 1, 'purchasingProduct')
+data.setCell(2, 2, 'tests.EndToEndScenario')
+data.setCell(2, 3, 10319);
 window.suiteTableData['All_Test_Suite']= { tableData: data, tableDiv: 'times-div-All_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 16 seconds</span>
+              <span class="suite-total-time">Total running time: 43 seconds</span>
               <div id="times-div-All_Test_Suite">
               </div> <!-- times-div-All_Test_Suite -->
             </div> <!-- times-div -->
@@ -308,18 +248,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-All_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">tests.PurchaseItem</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">tearDown</span>
-                <br/>
-                <span class="ignored-method-name">setEnvironment</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-All_Test_Suite" class="panel">
@@ -328,46 +259,38 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">tests.AuthTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">tests.EndToEndScenario</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">setEnvironment</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">5997 ms</span>
+                <span class="method-start">7344 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">RegisterTest</span>
-                <span class="method-start">6288 ms</span>
+                <span class="method-start">8185 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">16303 ms</span>
+                <span class="method-start">29257 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">login</span>
-                <span class="method-start">16305 ms</span>
+                <span class="method-start">29267 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">tests.PurchaseItem</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">18644 ms</span>
+                <span class="method-start">41634 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">purchasingProduct</span>
-                <span class="method-start">18646 ms</span>
+                <span class="method-start">41637 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">tests.AuthTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">22767 ms</span>
+                <span class="method-start">52104 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

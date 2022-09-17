@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 24.946 sec <<< FAILURE! - in TestSuite
-purchasingProduct(tests.PurchaseItem)  Time elapsed: 4.024 sec  <<< FAILURE!
-java.lang.NullPointerException
-	at tests.PurchaseItem.purchasingProduct(PurchaseItem.java:9)
-
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 55.732 sec - in TestSuite

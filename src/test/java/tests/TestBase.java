@@ -14,44 +14,39 @@ public class TestBase {
 
     String URL = "http://magento-demo.lexiconn.com/";
 
-   WebDriver driver;
-   HomePage homePage;
-   RegistrationPage regPage;
-   LoginPage loginPage;
-   PantsAndDenimPage denimPage;
-   ProductDetails productDetails;
+    WebDriver driver;
+    HomePage homePage;
+    RegistrationPage regPage;
+    LoginPage loginPage;
+    PantsAndDenimPage denimPage;
+    ProductDetails productDetails;
 
-        @BeforeSuite
-        void setEnvironment() {
-            allureEnvironmentWriter(
-                    ImmutableMap.<String, String>builder()
-                            .put("Browser", "Chrome")
-                            .put("Browser.Version", "97.0.4692.71")
-                            .build(), System.getProperty("user.dir")
-                            + "/allure-results/");
-            WebDriverManager.chromedriver().setup();
-            driver = new ChromeDriver();
+    @BeforeSuite
+    void setEnvironment() {
+        allureEnvironmentWriter(
+                ImmutableMap.<String, String>builder()
+                        .put("Browser", "Chrome")
+                        .put("Browser.Version", "97.0.4692.71")
+                        .build(), System.getProperty("user.dir")
+                        + "/allure-results/");
+        WebDriverManager.chromedriver().setup();
+        driver = new ChromeDriver();
+        driver.manage().window().maximize();
+        driver.navigate().to(URL);
+    }
 
-            driver.manage().window().maximize();
-            driver.navigate().to(URL);
+    @BeforeMethod
+    public void initialize() {
+        homePage = new HomePage(driver);
+        regPage = new RegistrationPage(driver);
+        loginPage = new LoginPage(driver);
+        denimPage = new PantsAndDenimPage(driver);
+        productDetails = new ProductDetails(driver);
+    }
 
-
-        }
-
-        @BeforeMethod
-        public void setUp(){
-            homePage = new HomePage(driver);
-            regPage = new RegistrationPage(driver);
-            loginPage = new LoginPage(driver);
-            denimPage = new PantsAndDenimPage(driver);
-            productDetails = new ProductDetails(driver);
-
-
-        }
-
-        @AfterSuite
-        public void tearDown(){
-            driver.quit();
+    @AfterSuite
+    public void tearDown() {
+        driver.quit();
 
 
     }
