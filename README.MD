@@ -34,7 +34,6 @@ Page Object Model Design Pattern
 4- pull the project 
 
 ## How To Run 
-
 open Tests Package 
 
 Select E2E Scenario And Run It 

@@ -45,6 +45,6 @@ public class EndToEndScenario extends TestBase{
         productDetails.setColor(1);
         productDetails.setSize(1);
         productDetails.addToCard();
-        Assert.assertTrue(productDetails.getPrice() <myBudget);
+        Assert.assertTrue(productDetails.getGrandTotal() < myBudget);
     }
 }

@@ -37,7 +37,7 @@ public class ProductDetails extends PageBase {
         return getTextContain(priceCard);
     }
 
-    public Double getPrice(){
+    public Double getGrandTotal(){
         String price = getContainsOfPriceCard();
         String[]arrOfPrice=price.split("\\p{Sc}");
         for(String val : arrOfPrice)
