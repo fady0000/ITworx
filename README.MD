@@ -4,10 +4,10 @@
  ## Table Of Content 
 1. [General info](#general-info)
 2. [Tools and frameworks](#tools-and-frameworks)
-3. [Technologies](#technologies)
+3. [Technologies And Patterns](#technologies-and-patterns)
 4. [Installation](#installation)
-5- [How To Run](#how-to-run)
-5- [Patterns](#patterns)
+5. [How To Run](#how-to-run)
+
 ## General Info 
 Automated Scenarios For Ecommerce Website
 
@@ -20,8 +20,10 @@ this project based on build automation tool (MVN) project
  
  Intellij IDE
 
-## Technologies
+## Technologies And Patterns
 JAVA 15.0.1
+
+Page Object Model Design Pattern
 
 ## Installation
 1- install java 15 
@@ -31,9 +33,6 @@ JAVA 15.0.1
 3- install intellij (preferred)
 
 4- pull the project 
-
-## Patterns
-Page Object Model Design Pattern
 
 ## How To Run 
 open Tests Package 
