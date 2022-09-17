@@ -1,17 +1,17 @@
 # IT Worx
  *** 
 ## Table Of Content 
-1. [General info](#General-Info)
+1. [General info](#general-info)
 2. [Tools and frameworks](#tools-and-frameworks)
 3. [Technologies](#technologies)
 4. [Installation](#installation)
-5- [How To Run](#How-To-Run)
+5- [How To Run](#how-to-run)
 
-##General Info 
+## General Info 
 ***
 Automated Scenarios For Ecommerce Website
 
-##Tools and Frameworks
+## Tools and Frameworks
 ***
 this project based on build automation tool (MVN) project
 
@@ -19,13 +19,13 @@ this project based on build automation tool (MVN) project
  
  Allure Report For Reporting  
 
-##Technologies
+## Technologies
 ***
 java 15 
 
 Page Object Design Pattern
 
-##Installation
+## Installation
 ***
 1- install java 15 
 
@@ -35,7 +35,7 @@ Page Object Design Pattern
 
 4- pull the project 
 
-##How To Run 
+## How To Run 
 ***
 open Tests Package 
 Select E2E Scenario And Run It 
