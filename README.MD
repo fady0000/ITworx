@@ -38,6 +38,7 @@ Page Object Design Pattern
 ## How To Run 
 ***
 open Tests Package 
+
 Select E2E Scenario And Run It 
 
 Also, Can Run It From Terminal Using Command Line `mvn test`
