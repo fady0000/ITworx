@@ -9,9 +9,7 @@
 
 ##General Info 
 ***
-
 Automated Scenarios For Ecommerce Website
-
 
 ##Tools and Frameworks
 ***
@@ -20,8 +18,6 @@ this project based on build automation tool (MVN) project
  TestNG framework
  
  Allure Report For Reporting  
-
-***
 
 ##Technologies
 ***
