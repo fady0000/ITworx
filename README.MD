@@ -8,11 +8,9 @@
 5- [How To Run](#How-To-Run)
 
 ##General Info 
-***
 Automated Scenarios For Ecommerce Website
 
 ##Tools and Frameworks
-***
 this project based on build automation tool (MVN) project
 
  TestNG framework
@@ -36,7 +34,6 @@ Page Object Model Design Pattern
 4- pull the project 
 
 ##How To Run 
-***
 open Tests Package 
 
 Select E2E Scenario And Run It 
