@@ -1,19 +1,17 @@
 # IT Worx
  *** 
-## Table Of Content 
+ 
+ ## Table Of Content 
 1. [General info](#general-info)
 2. [Tools and frameworks](#tools-and-frameworks)
 3. [Technologies](#technologies)
 4. [Installation](#installation)
 5- [How To Run](#how-to-run)
 5- [Patterns](#patterns)
-
 ## General Info 
-***
 Automated Scenarios For Ecommerce Website
 
 ## Tools and Frameworks
-***
 this project based on build automation tool (MVN) project
 
  TestNG framework
@@ -23,10 +21,9 @@ this project based on build automation tool (MVN) project
  Intellij IDE
 
 ## Technologies
-***
 JAVA 15.0.1
+
 ## Installation
-***
 1- install java 15 
 
 2- add maven and java to system environment 
@@ -36,12 +33,9 @@ JAVA 15.0.1
 4- pull the project 
 
 ## Patterns
-***
-
 Page Object Model Design Pattern
 
 ## How To Run 
-***
 open Tests Package 
 
 Select E2E Scenario And Run It 
