@@ -40,9 +40,9 @@ Page Object Design Pattern
 open Tests Package 
 Select E2E Scenario And Run It 
 
-Also, Can Run It From Terminal Using Command Line (mvn test)
+Also, Can Run It From Terminal Using Command Line `mvn test`
 
-Reporting Run With Command Line (Allure serve)
+Reporting Run With Command Line `allure serve`
 
 
 
