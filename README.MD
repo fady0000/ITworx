@@ -15,7 +15,6 @@ Automated Scenarios For Ecommerce Website
 
 ##Tools and Frameworks
 ***
-
 this project based on build automation tool (MVN) project
 
  TestNG framework
@@ -25,14 +24,13 @@ this project based on build automation tool (MVN) project
 ***
 
 ##Technologies
-
+***
 java 15 
 
 Page Object Design Pattern
 
 ##Installation
 ***
-
 1- install java 15 
 
 2- add maven and java to system environment 
@@ -43,7 +41,6 @@ Page Object Design Pattern
 
 ##How To Run 
 ***
-
 open Tests Package 
 Select E2E Scenario And Run It 
 
