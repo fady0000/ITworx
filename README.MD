@@ -1,16 +1,16 @@
 # IT Worx
  *** 
 ## Table Of Content 
-1. [General info](#General-Info)
+1. [General info](#general-info)
 2. [Tools and frameworks](#tools-and-frameworks)
-3. [Technologies](#technologies)
+3. [Technologies And Patterns](#technologies-and-patterns)
 4. [Installation](#installation)
-5- [How To Run](#How-To-Run)
+5. [How To Run](#how-to-run)
 
-##General Info 
+## General Info 
 Automated Scenarios For Ecommerce Website
 
-##Tools and Frameworks
+## Tools and Frameworks
 this project based on build automation tool (MVN) project
 
  TestNG framework
@@ -33,7 +33,8 @@ Page Object Model Design Pattern
 
 4- pull the project 
 
-##How To Run 
+## How To Run 
+
 open Tests Package 
 
 Select E2E Scenario And Run It 
