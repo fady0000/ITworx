@@ -1,12 +1,10 @@
-# Project Name 
+# IT Worx
  *** 
-IT Worx Task
-
 ## Table Of Content 
 1. [General info](#General-Info)
-2. [tools and frameworks](#tools-and-frameworks)
-3. [technologies](#technologies)
-4. [installation](#installation)
+2. [Tools and frameworks](#tools-and-frameworks)
+3. [Technologies](#technologies)
+4. [Installation](#installation)
 5- [How To Run](#How-To-Run)
 
 ##General Info 
@@ -32,7 +30,7 @@ java 15
 
 Page Object Design Pattern
 
-##installation
+##Installation
 ***
 
 1- install java 15 
