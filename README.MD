@@ -19,11 +19,12 @@ this project based on build automation tool (MVN) project
  TestNG framework
  
  Allure Report For Reporting  
+ 
+ Intellij IDE
 
 ## Technologies
 ***
-java 15 
-
+JAVA 15.0.1
 ## Installation
 ***
 1- install java 15 
