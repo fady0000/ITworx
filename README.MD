@@ -6,6 +6,7 @@
 3. [Technologies](#technologies)
 4. [Installation](#installation)
 5- [How To Run](#how-to-run)
+5- [Patterns](#patterns)
 
 ## General Info 
 ***
@@ -23,8 +24,6 @@ this project based on build automation tool (MVN) project
 ***
 java 15 
 
-Page Object Design Pattern
-
 ## Installation
 ***
 1- install java 15 
@@ -34,6 +33,11 @@ Page Object Design Pattern
 3- install intellij (preferred)
 
 4- pull the project 
+
+## Patterns
+***
+
+Page Object Model Design Pattern
 
 ## How To Run 
 ***
