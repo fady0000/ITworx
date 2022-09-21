@@ -1,5 +1,7 @@
 package tests;
 
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import java.time.LocalDateTime;
@@ -15,6 +17,7 @@ public class EndToEndScenario extends TestBase{
     int myBudget = 350;
 
     @Test
+    @Severity(SeverityLevel.BLOCKER)
     public void RegisterTest ()  {
         homePage.openAccountList();
         homePage.selectRegister();
@@ -29,6 +32,7 @@ public class EndToEndScenario extends TestBase{
         homePage.selectLogOut();
     }
     @Test
+    @Severity(SeverityLevel.CRITICAL)
     public void login () {
         homePage.openAccountList();
         homePage.selectLogin();
@@ -39,6 +43,7 @@ public class EndToEndScenario extends TestBase{
     }
 
     @Test
+    @Severity(SeverityLevel.CRITICAL)
     public void purchasingProduct(){
         homePage.openWomenList();
         denimPage.openItemDetails();
