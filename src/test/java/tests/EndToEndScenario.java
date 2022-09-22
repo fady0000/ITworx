@@ -1,5 +1,6 @@
 package tests;
 
+import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import org.testng.Assert;
@@ -17,6 +18,7 @@ public class EndToEndScenario extends TestBase{
     int myBudget = 350;
 
     @Test
+    @Description("Verify That, User Can Register")
     @Severity(SeverityLevel.BLOCKER)
     public void RegisterTest ()  {
         homePage.openAccountList();
@@ -32,6 +34,7 @@ public class EndToEndScenario extends TestBase{
         homePage.selectLogOut();
     }
     @Test
+    @Description("Verify That, User Can Login")
     @Severity(SeverityLevel.CRITICAL)
     public void login () {
         homePage.openAccountList();
@@ -43,6 +46,7 @@ public class EndToEndScenario extends TestBase{
     }
 
     @Test
+    @Description("Verify That, User Can Purchase Item")
     @Severity(SeverityLevel.CRITICAL)
     public void purchasingProduct(){
         homePage.openWomenList();

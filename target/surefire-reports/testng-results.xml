@@ -2,40 +2,40 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-21T17:43:21 EET" name="All Test Suite" finished-at="2022-09-21T17:43:31 EET" duration-ms="10721">
+  <suite started-at="2022-09-22T15:14:50 EET" name="All Test Suite" finished-at="2022-09-22T15:15:05 EET" duration-ms="14496">
     <groups>
     </groups>
-    <test started-at="2022-09-21T17:43:21 EET" name="E:/ITworx/src/test" finished-at="2022-09-21T17:43:31 EET" duration-ms="10721">
+    <test started-at="2022-09-22T15:14:50 EET" name="E:/ITworx/src/test" finished-at="2022-09-22T15:15:05 EET" duration-ms="14496">
       <class name="tests.EndToEndScenario">
-        <test-method is-config="true" signature="setEnvironment()[pri:0, instance:tests.EndToEndScenario@15515c51]" started-at="2022-09-21T17:43:15 EET" name="setEnvironment" finished-at="2022-09-21T17:43:21 EET" duration-ms="5742" status="PASS">
+        <test-method is-config="true" signature="setEnvironment()[pri:0, instance:tests.EndToEndScenario@29d334c]" started-at="2022-09-22T15:14:44 EET" name="setEnvironment" finished-at="2022-09-22T15:14:50 EET" duration-ms="6728" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setEnvironment -->
-        <test-method is-config="true" signature="initialize()[pri:0, instance:tests.EndToEndScenario@15515c51]" started-at="2022-09-21T17:43:21 EET" name="initialize" finished-at="2022-09-21T17:43:21 EET" duration-ms="171" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:tests.EndToEndScenario@29d334c]" started-at="2022-09-22T15:14:50 EET" name="initialize" finished-at="2022-09-22T15:14:51 EET" duration-ms="301" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="RegisterTest()[pri:0, instance:tests.EndToEndScenario@15515c51]" started-at="2022-09-21T17:43:21 EET" name="RegisterTest" finished-at="2022-09-21T17:43:25 EET" duration-ms="4218" status="PASS">
+        <test-method signature="RegisterTest()[pri:0, instance:tests.EndToEndScenario@29d334c]" started-at="2022-09-22T15:14:51 EET" name="RegisterTest" finished-at="2022-09-22T15:14:56 EET" duration-ms="5056" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RegisterTest -->
-        <test-method is-config="true" signature="initialize()[pri:0, instance:tests.EndToEndScenario@15515c51]" started-at="2022-09-21T17:43:25 EET" name="initialize" finished-at="2022-09-21T17:43:25 EET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:tests.EndToEndScenario@29d334c]" started-at="2022-09-22T15:14:56 EET" name="initialize" finished-at="2022-09-22T15:14:56 EET" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="login()[pri:0, instance:tests.EndToEndScenario@15515c51]" started-at="2022-09-21T17:43:25 EET" name="login" finished-at="2022-09-21T17:43:27 EET" duration-ms="1800" status="PASS">
+        <test-method signature="login()[pri:0, instance:tests.EndToEndScenario@29d334c]" started-at="2022-09-22T15:14:56 EET" name="login" finished-at="2022-09-22T15:14:59 EET" duration-ms="2858" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="initialize()[pri:0, instance:tests.EndToEndScenario@15515c51]" started-at="2022-09-21T17:43:27 EET" name="initialize" finished-at="2022-09-21T17:43:27 EET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:tests.EndToEndScenario@29d334c]" started-at="2022-09-22T15:14:59 EET" name="initialize" finished-at="2022-09-22T15:14:59 EET" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="purchasingProduct()[pri:0, instance:tests.EndToEndScenario@15515c51]" started-at="2022-09-21T17:43:27 EET" name="purchasingProduct" finished-at="2022-09-21T17:43:31 EET" duration-ms="4324" status="PASS">
+        <test-method signature="purchasingProduct()[pri:0, instance:tests.EndToEndScenario@29d334c]" started-at="2022-09-22T15:14:59 EET" name="purchasingProduct" finished-at="2022-09-22T15:15:05 EET" duration-ms="5886" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- purchasingProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.EndToEndScenario@15515c51]" started-at="2022-09-21T17:43:31 EET" name="tearDown" finished-at="2022-09-21T17:43:32 EET" duration-ms="636" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.EndToEndScenario@29d334c]" started-at="2022-09-22T15:15:05 EET" name="tearDown" finished-at="2022-09-22T15:15:06 EET" duration-ms="917" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
